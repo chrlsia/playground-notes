@@ -35,3 +35,18 @@ func main(){
 func printMessage(i int){
 	fmt.Print(i," ")
 }
+
+/*
+Notes:
+command line: go main.go deck.go
+(whatever relates to main only)
+(function addTwoIntegers of deck.go is not exported so small letter)
+
+myapp/house
+(it meand import everything belonging to package house)
+myapp/yard
+(it means import everything belonging to package yard)
+
+THAT's why their functions should be exported(=Capital first letter)
+in order to be invoded from the main package
+*/
